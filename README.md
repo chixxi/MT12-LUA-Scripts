@@ -10,6 +10,14 @@ The picture above is the screen at idle: armed, throttle and steering centered, 
 
 The script only displays values. It does not limit the throttle or force the outputs to zero. Arming safety and the throttle cap belong in the model, as mixes, curves, logical switches, and special functions. The screen then reads the result.
 
+## Status
+
+This screen was written with AI.
+
+There are no plans to maintain it or add anything further. Issues will be ignored.
+
+The code is under the [MIT license](LICENSE). You can reuse it, change it, and ship it in your own work.
+
 ## The screen
 
 **Banner.** With a link, the banner shows `ARMED` while the arm source is on. Otherwise it alternates `SAFE` and the model name. With no link it alternates `NO LINK` and the time since the link dropped, for example `1:27`. The texts, the switch, and the timing are all settings.
