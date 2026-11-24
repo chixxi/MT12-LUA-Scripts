@@ -1,6 +1,8 @@
 -- Race-boat dashboard for the Radiomaster MT12 (EdgeTX 2.12, 128x64).
+-- Version 1.01
 -- Install: copy to SCRIPTS/TELEMETRY/boat.lua on the SD card, then
--- Model > Display > Script > boat. Long-press PAGE to show it.
+-- Model > Display > Script > boat. From the Home Screen, press the
+-- Telemetry button to open these pages.
 -- The script only displays values. Arming safety and the throttle limit
 -- must be set up in the model itself (special functions, curves).
 

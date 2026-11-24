@@ -1,8 +1,10 @@
 # MT12 Lua scripts
 
+Version 1.01.
+
 Telemetry screens for the Radiomaster MT12 running EdgeTX. The screen is 128×64 pixels, black and white.
 
-The first script is **boat**, a race-boat dashboard. It shows throttle, steering, trims, the throttle limit, both batteries, and the ExpressLRS link on one page.
+The first script is **boat** 1.01, a race-boat dashboard. It shows throttle, steering, trims, the throttle limit, both batteries, and the ExpressLRS link on one page.
 
 ![Boat screen](screen.png)
 
@@ -37,7 +39,7 @@ The code is under the [MIT license](LICENSE). You can reuse it, change it, and s
 
 1. Copy `SCRIPTS/TELEMETRY/boat.lua` to `SCRIPTS/TELEMETRY/` on the radio's SD card.
 2. On the radio, open the model and go to **Display**. Set a screen to **Script** and choose `boat`.
-3. From the main screen, long-press **PAGE** until the script appears.
+3. From the Home Screen, press the Telemetry button to open these pages.
 
 EdgeTX telemetry script names can be at most six characters. `boat` fits. After copying, eject the card before unplugging the radio. If an old `boat.luac` is sitting next to the new file, delete it so the radio compiles the new script.
 
